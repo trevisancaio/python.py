@@ -1,4 +1,4 @@
-dade = 25
+idade = 25
 nome = "Caio"
 altura = 1.71
 pessoa = ["Caio","25","1.71"]
