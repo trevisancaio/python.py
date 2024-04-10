@@ -1,10 +1,16 @@
-x = float(input("Digite um peso:"))
-y = float(input("Digite uma altura:"))
+peso = float(input("Digite um peso:"))
+altura= float(input("Digite uma altura:"))
 
-calculadora_de_imc = x/(y*y)
+calculadora_de_imc = peso/(altura*altura)
 print( "O imc é:",calculadora_de_imc)
+
+if peso<=0:
+    print("Digite um peso valido")
+    
+elif altura<=0:
+    print("Digite uma altura valida")
  
-if calculadora_de_imc < 18.5:
+elif calculadora_de_imc < 18.5: 
     print("Abaixo do peso")
 elif calculadora_de_imc > 18.5 and calculadora_de_imc < 24.9:
     print("peso normal")
