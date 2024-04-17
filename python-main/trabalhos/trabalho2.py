@@ -30,8 +30,6 @@ def calcula_media_enem():
             print("Parabéns! Você está aprovado no Prouni e no Fies.")
         else:
             print("Infelizmente, você não está aprovado no Prouni e no Fies.")
-    else:
-        print("Entrada inválida. Por favor, insira notas válidas.")
 
 
 calcula_media_enem()
